@@ -24,7 +24,7 @@ function complete() {
 
 // get new quote
 function getNewQuote(){
-    var randomNumber = Math.floor(Math.random() * 16);
+    var randomNumber = Math.floor(Math.random() * 15);
     tweetData = data[randomNumber].text;
     quoteTxt.innerText = tweetData;
     if(data[randomNumber].author==null){
